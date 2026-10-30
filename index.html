@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portofolio – Wisnu Dwi Cahyono</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="stars" aria-hidden="true"><b></b></div>
+
+<nav class="dock" aria-label="Menu portofolio">
+  <div role="tablist" aria-orientation="vertical">
+    <button role="tab" id="t-home" aria-controls="home" aria-label="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><span class="lbl">Home</span></button>
+    <button role="tab" id="t-about" aria-controls="about" aria-label="About"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span class="lbl">About</span></button>
+    <button role="tab" id="t-skills" aria-controls="skills" aria-label="What I Can Do"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8l-5 4 5 4"/><path d="M16 8l5 4-5 4"/><path d="M14 5l-4 14"/></svg><span class="lbl">What I Can Do</span></button>
+    <button role="tab" id="t-work" aria-controls="work" aria-label="Portofolio"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 012-2h2a2 2 0 012 2v2"/><path d="M3 13h18"/></svg><span class="lbl">Portofolio</span></button>
+    <button role="tab" id="t-achievement" aria-controls="achievement" aria-label="Achievement"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14L7 21l5-3 5 3-1.5-7"/></svg><span class="lbl">Achievement</span></button>
+    <button role="tab" id="t-contact" aria-controls="contact" aria-label="Contact"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span class="lbl">Contact</span></button>
+  </div>
+  <div class="sep"></div>
+  <button id="theme" aria-label="Ganti ke tema gelap"><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 13A9 9 0 1111 3a7 7 0 0010 10z"/></svg><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg><span class="lbl">Tema gelap</span></button>
+  <button id="sound" type="button" aria-label="Matikan suara" aria-pressed="true"><svg class="i-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5L6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 010 7M18.5 5.5a9 9 0 010 13"/></svg><svg class="i-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5L6 9H3v6h3l5 4z"/><path d="M16 9l5 6M21 9l-5 6"/></svg><span class="lbl">Suara</span></button>
+</nav>
+
+<main><div class="wrap">
+
+<!-- ===== HOME ===== -->
+<section role="tabpanel" id="home" aria-labelledby="t-home">
+  <div class="hero">
+    <div>
+      <h1>WISNU DWI<br>CAHYONO.</h1>
+      <p>Mahasiswa Teknik Informatika Universitas Negeri Surabaya yang suka membangun hal-hal kecil menjadi solusi digital yang berguna.</p>
+      <div class="cta"><button class="btn" data-go="about">Kenalan dulu</button><div class="socials" aria-label="Media sosial"><a class="soc" href="https://www.linkedin.com/in/wisnu-dwi-cahyono" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><span class="ic fill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></span></a><a class="soc" href="https://www.instagram.com/wisnu.img" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></span></a><a class="soc" href="https://www.threads.com/@wisnu.img" target="_blank" rel="noopener" aria-label="Threads" title="Threads"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 10.5C17 7.6 15 5.5 12 5.5c-3.2 0-5.2 2.4-5.2 6.5s2 6.5 5.2 6.5c2.5 0 4.2-1.3 4.2-3.1 0-1.9-1.8-2.8-4.2-2.8-1.8 0-2.9.8-2.9 1.9 0 1 .9 1.7 2.1 1.7 2 0 3-1.5 3-3.9v-.3"/></svg></span></a><a class="soc" href="https://github.com/wisnu-img" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><span class="ic fill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></span></a></div></div>
+    </div>
+    <!-- Foto sudah ditanam langsung di sini. Untuk ganti foto, ganti isi src dengan "fotobaru.jpg" -->
+    <div class="portal"><div class="photo"><img src="images/img-01.jpg" alt="Foto Wisnu Dwi Cahyono" onerror="this.remove();this.parentNode.textContent='WDC'"></div><svg class="sp s1" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z" fill="currentColor"/></svg><svg class="sp s2" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z" fill="currentColor"/></svg><svg class="sp s3" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z" fill="currentColor"/></svg></div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section role="tabpanel" id="about" aria-labelledby="t-about" hidden>
+  <h1 class="title">About Me</h1>
+  <p class="lead">Profil singkat tentang saya.</p>
+  <div class="about">
+    <dl>
+      <dt>Nama</dt><dd>Wisnu Dwi Cahyono</dd>
+      <dt>NIM</dt><dd>26051204256</dd>
+      <dt>Prodi</dt><dd>Teknik Informatika</dd>
+      <dt>Pendidikan</dt><dd>S1 Teknik Informatika, Universitas Negeri Surabaya (Aug 2026 – sekarang)</dd>
+      <dt>Aktivitas</dt><dd>Belajar web development</dd>
+      <dt>Minat</dt><dd>Fotografi, desain grafis, editing foto &amp; video</dd>
+    </dl>
+    <div class="about-text"><p>Halo semua 👋🏻 perkenalkan nama aku Wisnu Dwi Cahyono, saya mahasiswa S1 Teknik Informatika yang berkuliah di Universitas Negeri Surabaya. Saya suka memecahkan beberapa masalah besar hingga menjadi kecil.</p><p style="margin-top:16px">Di luar kuliah saya memiliki bakat dan minat dalam fotografi, membuat desain grafis, mengedit foto dan video.</p></div>
+  </div>
+  <h2 class="sub" style="margin-top:48px">Pengalaman Terakhir</h2>
+  <ul class="exp">
+    <li><div class="exp-main"><strong>SMAN 1 SUMENEP</strong><span class="exp-addr">Jl. Payudan Timur No.1, Mastasek, Pabian, Kec. Kota Sumenep, Kabupaten Sumenep, Jawa Timur 69411</span><em>Tataboga Smansa</em><ul><li>WAKIL KETUA UMUM</li></ul></div><time>Aug 2023 – Jul 2024</time></li>
+    <li><div class="exp-main"><strong>SMAN 1 SUMENEP</strong><span class="exp-addr">Jl. Payudan Timur No.1, Mastasek, Pabian, Kec. Kota Sumenep, Kabupaten Sumenep, Jawa Timur 69411</span><em>Paskibra Jokotole Smansa</em><ul><li>SIE INFORMASI DAN KOMUNIKASI</li></ul></div><time>Aug 2024 – Sep 2025</time></li>
+    <li><div class="exp-main"><strong>SMAN 1 SUMENEP</strong><span class="exp-addr">Jl. Payudan Timur No.1, Mastasek, Pabian, Kec. Kota Sumenep, Kabupaten Sumenep, Jawa Timur 69411</span><em>Tataboga Smansa</em><ul><li>SEKRETARIS 1</li></ul></div><time>Aug 2024 – Jul 2025</time></li>
+  </ul>
+  <h2 class="sub" style="margin-top:48px">Riwayat Pendidikan</h2>
+  <ul class="timeline">
+    <li class="edu"><img class="edu-logo" src="images/img-02.png" alt="Logo Universitas Negeri Surabaya"><div><time>Aug 2026 – sekarang</time><h3>S1 Teknik Informatika</h3><small>Universitas Negeri Surabaya</small><p>Jl. Ketintang Wiyata, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur 60231</p></div></li>
+    <li class="edu"><img class="edu-logo" src="images/img-03.png" alt="Logo SMA Negeri 1 Sumenep"><div><time>Jul 2023 – Mei 2026</time><h3>SMA Negeri 1 Sumenep</h3><small>Sekolah Menengah Atas</small><p>Jl. Payudan Timur No.1, Mastasek, Pabian, Kec. Kota Sumenep, Kabupaten Sumenep, Jawa Timur 69411</p></div></li>
+    <li class="edu"><img class="edu-logo" src="images/img-04.png" alt="Logo SMP Negeri 1 Sumenep"><div><time>2020 – 2023</time><h3>SMP Negeri 1 Sumenep</h3><small>Sekolah Menengah Pertama</small><p>Sumenep, Jawa Timur.</p></div></li>
+  </ul>
+</section>
+
+<!-- ===== WHAT I CAN DO ===== -->
+<section role="tabpanel" id="skills" aria-labelledby="t-skills" hidden>
+  <h1 class="title">What I Can Do 🤔</h1>
+  <p class="lead">Kemampuan dan tools yang saya gunakan.</p>
+  <div class="grid">
+    <div class="card"><h3>Web Development</h3><p>Membuat halaman web yang rapi di desktop dan HP.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+    <div class="card"><h3>Pemrograman</h3><p>Menulis program untuk menyelesaikan masalah sehari-hari.</p><div class="tags"><span>C++</span><span>GitHub</span></div></div>
+    <div class="card"><h3>Editing Foto &amp; Video</h3><p>Mengedit foto, video, dan membuat desain grafis.</p><div class="tags"><span>Canva</span><span>CapCut</span><span>Figma</span><span>Kinemaster</span></div></div>
+    <div class="card"><h3>Kerja dengan AI</h3><p>Memakai AI sebagai asisten belajar dan membangun proyek.</p><div class="tags"><span>Claude</span><span>ChatGPT</span><span>Google AI Studio</span><span>VS Code</span></div></div>
+  </div>
+</section>
+
+<!-- ===== PORTOFOLIO ===== -->
+<section role="tabpanel" id="work" aria-labelledby="t-work" hidden>
+  <h1 class="title">Portofolio</h1>
+  <p class="lead">Proyek dan karya yang pernah saya buat.</p>
+  <div class="grid" id="work-list">
+    <article class="card work-card">
+      <div class="slider" data-slider><div class="track" tabindex="0" aria-label="Foto Projek Mata Kuliah IMK"><img src="images/img-05.jpg" alt="Rancangan Figma: Layar kunci dan splash aplikasi" loading="lazy"><img src="images/img-06.jpg" alt="Rancangan Figma: Halaman login dan beranda aplikasi" loading="lazy"><img src="images/img-07.jpg" alt="Rancangan Figma: Halaman profil aplikasi" loading="lazy"><img src="images/img-08.jpg" alt="Rancangan Figma: Halaman KHS dan jadwal kuliah" loading="lazy"><img src="images/img-09.jpg" alt="Rancangan Figma: Halaman kegiatan aplikasi" loading="lazy"><img src="images/img-10.jpg" alt="Rancangan Figma: Komponen tombol dan ikon aplikasi" loading="lazy"></div><button type="button" class="nav prev" aria-label="Foto sebelumnya">&#8249;</button><button type="button" class="nav next" aria-label="Foto berikutnya">&#8250;</button><div class="dots" aria-hidden="true"></div><span class="count" aria-live="polite">1 / 6</span></div>
+      <div class="body">
+        <small>2026</small>
+        <h3>Projek Mata Kuliah Interaksi Manusia Dan Komputer</h3>
+        <p>Membuat perencanaan dan tampilan aplikasi.</p>
+      </div>
+    </article>
+    <article class="card work-card">
+      <div class="slider" data-slider>
+        <div class="track" tabindex="0" aria-label="Foto Projek Event Sekolah">
+          <img src="images/img-11.jpg" alt="Poster teater Rahasia Sang Penari oleh Khonsu SMANSA" loading="lazy">
+<img src="images/img-12.jpg" alt="Poster hitung mundur H-5 pertunjukan Sasara Ndawi Kankwar" loading="lazy"><img src="images/img-13.jpg" alt="Poster hitung mundur H-3 pertunjukan Sasara Ndawi Kankwar" loading="lazy"><img src="images/img-14.jpg" alt="Poster hitung mundur H-1 pertunjukan Sasara Ndawi Kankwar" loading="lazy">
+
+
+
+<img src="images/img-15.jpg" alt="Poster pemeran pertunjukan Sasara Ndawi Kankwar" loading="lazy">
+<img src="images/img-16.jpg" alt="Poster kolase pertunjukan Sasara Ndawi Kankwar oleh Leandro SMANSA" loading="lazy">
+<img src="images/img-17.jpg" alt="Poster teaser film Teror di Balik Kanvas, coming soon" loading="lazy">
+<img src="images/img-18.jpg" alt="Poster film Teror di Balik Kanvas oleh Khonsu SMANSA" loading="lazy">
+        </div>
+        <button type="button" class="nav prev" aria-label="Foto sebelumnya">&#8249;</button>
+        <button type="button" class="nav next" aria-label="Foto berikutnya">&#8250;</button>
+        <div class="dots" aria-hidden="true"></div>
+        <span class="count" aria-live="polite">1 / 8</span>
+      </div>
+      <div class="body">
+        <small>2023 – 2025</small>
+        <h3>Projek Event Sekolah</h3>
+        <p>Rangkaian poster dan materi publikasi untuk pentas teater, pertunjukan musik dan tari, serta film pendek di SMA Negeri 1 Sumenep. Mulai dari poster hitung mundur menuju hari pertunjukan hingga poster film bertema misteri, semuanya dirancang agar penonton sudah ikut merasakan suasananya sebelum acara dimulai.</p>
+      </div>
+    </article>
+  </div>
+  <h2 class="sub" style="margin-top:48px">Soft Skill Dan Hard Skill</h2>
+  <p class="note" style="margin:0 0 16px">Klik salah satu untuk melihat deskripsinya.</p>
+  <div class="skill-row"><button type="button" class="skill-btn" data-name="Figma" data-desc="Merancang tampilan dan alur aplikasi sebelum dibuat, seperti prototipe aplikasi di projek mata kuliah Interaksi Manusia dan Komputer."><span class="sk-ic"><svg viewBox="0 0 38 57" aria-hidden="true"><path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1ABCFE"/><path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0ACF83"/><path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z" fill="#FF7262"/><path d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#F24E1E"/><path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z" fill="#A259FF"/></svg></span><span class="sk-name">Figma</span></button><button type="button" class="skill-btn" data-name="Canva" data-desc="Membuat poster dan materi publikasi acara yang rapi, menarik, dan sesuai tema."><span class="sk-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="lgc" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#00C4CC"/><stop offset="1" stop-color="#7D2AE8"/></linearGradient></defs><circle cx="12" cy="12" r="11.5" fill="url(#lgc)"/><path d="M16.6 9.3a5.2 5.2 0 1 0 0 5.4" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/></svg></span><span class="sk-name">Canva</span></button><button type="button" class="skill-btn" data-name="CapCut" data-desc="Mengedit video pendek dengan potongan, teks, dan musik yang pas supaya enak ditonton."><span class="sk-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="5.5" fill="#111"/><path d="M6.5 8.2L17.5 16M6.5 15.8L17.5 8" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="6.3" cy="8" r="1.6" fill="none" stroke="#fff" stroke-width="1.4"/><circle cx="6.3" cy="16" r="1.6" fill="none" stroke="#fff" stroke-width="1.4"/></svg></span><span class="sk-name">CapCut</span></button><button type="button" class="skill-btn" data-name="C++" data-desc="Dasar pemrograman untuk melatih logika dan memecah masalah besar menjadi langkah-langkah kecil."><span class="sk-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.2l9.4 5.4v10.8L12 22.8l-9.4-5.4V6.6z" fill="#00599C"/><text x="12" y="15" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="8.5" fill="#fff">C++</text></svg></span><span class="sk-name">C++</span></button></div>
+  <div class="card photo-card poster-card">
+    <div class="pc-head"><div><h3>Desain Poster</h3><small>Hasil karya saya</small></div></div>
+    <p>Beberapa poster publikasi yang saya buat untuk acara sekolah, mulai dari pentas teater, pertunjukan musik dan tari, sampai film pendek. Saya suka merancang poster yang langsung memberi gambaran suasana acaranya, mulai dari pilihan warna, huruf, sampai komposisi fotonya.</p>
+    <div class="gal">
+      <div class="gtrack posters" tabindex="0" aria-label="Galeri poster"><figure class=tall><img src="images/img-19.jpg" alt="Poster Misteri Tan Malaka" loading="lazy"><figcaption>Misteri Tan Malaka</figcaption></figure><figure><img src="images/img-20.jpg" alt="Poster Nocturnal Stories" loading="lazy"><figcaption>Nocturnal Stories</figcaption></figure></div>
+      <button type="button" class="nav prev" aria-label="Poster sebelumnya">&#8249;</button>
+      <button type="button" class="nav next" aria-label="Poster berikutnya">&#8250;</button>
+    </div>
+  </div>
+  <div class="card photo-card">
+    <div class="pc-head"><span class="sk-ic sm"><svg viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="lgf2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6C768"/><stop offset="1" stop-color="#E0457B"/></linearGradient></defs><path d="M8.6 4.5h6.8l1.4 2H20a2.5 2.5 0 0 1 2.5 2.5v9A2.5 2.5 0 0 1 20 20.5H4A2.5 2.5 0 0 1 1.5 18V9A2.5 2.5 0 0 1 4 6.5h3.2z" fill="url(#lgf2)"/><circle cx="12" cy="13.2" r="4.3" fill="#fff"/><circle cx="12" cy="13.2" r="2.7" fill="#2b2f4a"/></svg></span><div><h3>Fotografi</h3><small>Tentang aku dan fotografi</small></div></div>
+    <p>Fotografi adalah salah satu hal yang paling saya nikmati di luar kuliah. Saya suka berburu momen sederhana di sekitar. Bagi saya, foto yang bagus tidak selalu butuh objek yang megah, cukup cahaya yang pas dan sudut pandang yang berbeda. Hasil jepretan itu sering saya olah lagi lewat editing supaya suasananya lebih terasa.</p>
+    <div class="gal">
+      <div class="gtrack" tabindex="0" aria-label="Galeri fotografi"><figure><img src="images/img-21.jpg" alt="Bunga di halaman sekolah" loading="lazy"><figcaption>Bunga di halaman sekolah</figcaption></figure><figure><img src="images/img-22.jpg" alt="Lampu taman di malam hari" loading="lazy"><figcaption>Lampu taman di malam hari</figcaption></figure><figure><img src="images/img-23.jpg" alt="Menara di balik pepohonan" loading="lazy"><figcaption>Menara di balik pepohonan</figcaption></figure><figure><img src="images/img-24.jpg" alt="Gerbang UNESA di siang hari" loading="lazy"><figcaption>Gerbang UNESA di siang hari</figcaption></figure><figure><img src="images/img-25.jpg" alt="Gerbang UNESA saat senja" loading="lazy"><figcaption>Gerbang UNESA saat senja</figcaption></figure><figure><img src="images/img-26.jpg" alt="Senja di tepi danau kampus" loading="lazy"><figcaption>Senja di tepi danau kampus</figcaption></figure><figure><img src="images/img-27.jpg" alt="Kucing tidur saat senja" loading="lazy"><figcaption>Kucing tidur saat senja</figcaption></figure><figure><img src="images/img-28.jpg" alt="Gedung kampus berlatar langit biru" loading="lazy"><figcaption>Gedung kampus berlatar langit biru</figcaption></figure><figure><img src="images/img-29.jpg" alt="Senja di atas hamparan sawah" loading="lazy"><figcaption>Senja di atas hamparan sawah</figcaption></figure><figure><img src="images/img-30.jpg" alt="Karang di tepi pantai" loading="lazy"><figcaption>Karang di tepi pantai</figcaption></figure><figure><img src="images/img-31.jpg" alt="Langit senja di pantai" loading="lazy"><figcaption>Langit senja di pantai</figcaption></figure><figure><img src="images/img-32.jpg" alt="Bunga liar ungu di antara semak" loading="lazy"><figcaption>Bunga liar ungu di antara semak</figcaption></figure><figure><img src="images/img-33.jpg" alt="Kupu-kupu singgah di sepatu" loading="lazy"><figcaption>Kupu-kupu singgah di sepatu</figcaption></figure><figure><img src="images/img-34.jpg" alt="Halaman saat hujan turun" loading="lazy"><figcaption>Halaman saat hujan turun</figcaption></figure><figure><img src="images/img-35.jpg" alt="Pohon dan langit biru" loading="lazy"><figcaption>Pohon dan langit biru</figcaption></figure></div>
+      <button type="button" class="nav prev" aria-label="Foto sebelumnya">&#8249;</button>
+      <button type="button" class="nav next" aria-label="Foto berikutnya">&#8250;</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ACHIEVEMENT ===== -->
+<section role="tabpanel" id="achievement" aria-labelledby="t-achievement" hidden>
+  <h1 class="title">Achievement</h1>
+  <p class="lead">Pencapaian yang pernah saya raih.</p>
+  <ul class="timeline">
+    <li><time>2025</time><h3>Juara 2 Mixed Team Divisi Barebow 20m</h3><small>Kejuaraan Panahan Piala KONI Kota Surabaya 2025</small>
+      <p>Meraih Juara 2 bersama tim SIAW Archery Club pada kejuaraan panahan yang berlangsung 13–14 Juni 2025 di Lapangan Panahan Barata Jaya, Surabaya. Pencapaian ini lahir dari latihan yang konsisten, fokus, dan kerja sama tim yang solid.</p>
+      <img class="cert" src="images/img-36.jpg" alt="Piagam Juara 2 Mixed Team Divisi Barebow 20m, Kejuaraan Panahan Piala KONI Kota Surabaya 2025 atas nama Wisnu Dwi Cahyono" loading="lazy">
+    </li>
+  </ul>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section role="tabpanel" id="contact" aria-labelledby="t-contact" hidden>
+  <h1 class="title">Contact</h1>
+  <p class="lead">Hubungi saya lewat contact person atau ikuti di sosial media.</p>
+  <div class="contact">
+    <div>
+      <h2 class="sub">Contact Person</h2>
+      <div class="links">
+        <div class="who"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></span><span><small>Nama</small>Wisnu Dwi Cahyono</span></div>
+        <a href="mailto:wisnugaluh08@gmail.com"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><span><small>Email</small>wisnugaluh08@gmail.com</span></a>
+      </div>
+    </div>
+    <div>
+      <h2 class="sub">Sosial Media</h2>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/wisnu-dwi-cahyono" target="_blank" rel="noopener"><span class="ic fill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></span><span><small>LinkedIn</small>linkedin.com/in/wisnu-dwi-cahyono</span></a>
+        <a href="https://www.instagram.com/wisnu.img" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></span><span><small>Instagram</small>instagram.com/wisnu.img</span></a>
+        <a href="https://www.threads.com/@wisnu.img" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 10.5C17 7.6 15 5.5 12 5.5c-3.2 0-5.2 2.4-5.2 6.5s2 6.5 5.2 6.5c2.5 0 4.2-1.3 4.2-3.1 0-1.9-1.8-2.8-4.2-2.8-1.8 0-2.9.8-2.9 1.9 0 1 .9 1.7 2.1 1.7 2 0 3-1.5 3-3.9v-.3"/></svg></span><span><small>Threads</small>threads.com/@wisnu.img</span></a>
+        <a href="https://github.com/wisnu-img" target="_blank" rel="noopener"><span class="ic fill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></span><span><small>GitHub</small>github.com/wisnu-img</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div></main>
+
+<dialog id="skill-dialog" aria-labelledby="sk-title">
+  <div class="sk-big" id="sk-logo"></div>
+  <h2 id="sk-title"></h2>
+  <p id="sk-desc"></p>
+  <div class="dlg-actions"><button type="button" class="ghost" id="sk-close">Tutup</button></div>
+</dialog>
+
+<footer><div class="wrap">© 2026 Wisnu Dwi Cahyono. Semua hak dilindungi.</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
